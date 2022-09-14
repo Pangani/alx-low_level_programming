@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _islower - Check Main
+ * _isalpha - Check Main
  * @c: an input character
  * Description: function uses the _putchar function to print
  * whether a character c lowercase or not
