@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_alphabet_10x - check description
- * Description: function uses _putchar function to print alphabet 10 times
- * Return: nothing
+ * main - Entry point
+ *
+ * Return: always 0
  */
 void print_alphabet_x10(void)
 {
