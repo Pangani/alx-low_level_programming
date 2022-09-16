@@ -7,27 +7,15 @@
  */
 int _isupper(int cLetter)
 {
-	char i, j;
-	int rValue;
+	char j;
+	int rValue = 0;
 
-	for (i = 'a'; i <= 'z'; i++)
+	for (j = 'A'; j <= 'Z'; j++)
 	{
-		for (j = 'A'; j <= 'Z'; j++)
+		if (cLetter == j)
 		{
-			if (cLetter == j)
-			{
-				rValue = 1;
-				break;
-			}
-			else if (cLetter == i)
-			{
-				rValue = 0;
-				break;
-			}
-			else
-			{
-				break;
-			}
+			rValue = 1;
+			break;
 		}
 	}
 	return (rValue);
