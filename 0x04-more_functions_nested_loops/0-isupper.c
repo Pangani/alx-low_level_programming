@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * isupper - check description
+ * _isupper - check description
  * @cLetter: input character
  * Description: the function checks for upper case character
  * Return: 1 if uppercase and 0 if lowercase
