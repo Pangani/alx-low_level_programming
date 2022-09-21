@@ -3,15 +3,11 @@
 #include <time.h>
 /**
  * positive_or_negative - prints negative or positive
+ * @n: input integer
  * Return: Always 0 (Success)
  */
-int positive_or_negative(void)
+int positive_or_negative(int n)
 {
-	int n;
-
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-
 	if (n > 0)
 		printf("%d is positive\n", n);
 	else if (n == 0)
