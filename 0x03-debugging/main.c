@@ -1,10 +1,8 @@
 #include "main.h"
-
 /**
  * main - tests functionthat prints if integer is positive oe neg
  * Return: 0 always (success)
  */
-
 int main(void)
 {
 	int i;
