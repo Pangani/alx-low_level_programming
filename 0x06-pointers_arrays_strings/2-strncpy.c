@@ -9,7 +9,7 @@
 char *_strncpy(char *dest, char *src, int n)
 {
 	int i, len = 0;
-	
+
 	while (src[len] != '\0')
 		len++;
 
