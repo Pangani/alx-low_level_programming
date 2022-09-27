@@ -4,7 +4,7 @@
  * @dest: memory area for destination
  * @src: memory area source to copy from
  * @n: number to copy from
- * Return: returns a small kid
+ * Return: returns a pointer
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
@@ -13,9 +13,7 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 
 	while (n--)
 	{
-		*dest = *src;
-		src++;
-		dest++;
+		*dest++ = *src++;
 	}
 	return (begin);
 }
