@@ -4,7 +4,7 @@
  *_strstr - function finds the first occurence of substring
  *@haystack: input string to search in
  *@needle: input string to search for
- *Return: location of first occurence
+ *Return: location of first occurence or NULL if not found
  */
 char *_strstr(char *haystack, char *needle)
 {
@@ -19,6 +19,7 @@ char *_strstr(char *haystack, char *needle)
 			haystack++;
 			needle++;
 		}
+
 		if (*needle == '\0')
 			return (haystack);
 		haystack = starth + 1;
