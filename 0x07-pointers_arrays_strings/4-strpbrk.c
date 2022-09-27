@@ -1,21 +1,25 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * _strpbrk - function searches for first occurence of characters in a string
  * @s: input string to search in
- * @c: number of characters to search
- * Return: a string 
+ * @accept: number of characters to search
+ * Return: a string
  */
 char *_strpbrk(char *s, char *accept)
 {
-	while(*s)
+	char *begin = accept;
+
+	while (*s)
 	{
-		if (c == *s)
-			return s;
+		while (*accept)
+		{
+			if (*accept == *s)
+				return (s);
+			accept++;
+		}
+		accept = begin;
 		s++;
 	}
-	if (c == s*)
-		return s;
 	return (NULL);
 }
-
- 
