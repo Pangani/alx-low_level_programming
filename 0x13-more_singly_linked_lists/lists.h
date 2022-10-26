@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 /**
- * struct list_s - singly linked liNK
+ * struct listint_s - singly linked liNK
  * @n: integer
  * @next: points to the next node
  * Description: singly linked list node structure
