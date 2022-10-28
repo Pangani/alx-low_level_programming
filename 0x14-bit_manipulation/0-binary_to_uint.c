@@ -4,7 +4,7 @@
 /**
  * binary_to_uint - function coverts binary to integer
  * @b: pointer to a binary number
- * Return: unsigned integer 
+ * Return: unsigned integer
  */
 unsigned int binary_to_uint(const char *b)
 {
