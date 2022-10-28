@@ -1,5 +1,4 @@
 #include <stdio.h>
-#define ULONG_MAX 0xFFFFFFFFUL
 #include "main.h"
 /**
  * print_binary - function prints a converted binary
@@ -9,7 +8,7 @@
 void print_binary(unsigned long int n)
 {
 	unsigned int flag = 0;
-	unsigned long int max = ULONG_MAX;
+	unsigned long int max = 32768;
 
 	if (n == 0)
 	{
