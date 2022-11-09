@@ -1,11 +1,13 @@
 #include <stdio.h>
 
 /**
- * main entry
+ * main - see code
  *
  * Return: always 0 (success)
  */
 
-int main(void) {
-	return 0;
+int main(void)
+{
+	printf("Hello there");
+	return (0);
 }
